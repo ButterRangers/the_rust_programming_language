@@ -18,3 +18,14 @@ fn takes_ownership(some_string: String) -> String {
 fn makes_copy(some_integer: i32) {
     println!("{}", some_integer);
 }
+
+fn first_word(s: &String) -> usize {
+    let bytes = s.as_bytes();
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return i;
+        }
+    }
+    s.len()
+}
