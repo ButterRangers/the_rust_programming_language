@@ -1,0 +1,1 @@
+D:\Prog\Rust\the_rust_programming_language\restaurant\target\debug\librestaurant.rlib: D:\Prog\Rust\the_rust_programming_language\restaurant\src\front_of_house\hosting.rs D:\Prog\Rust\the_rust_programming_language\restaurant\src\front_of_house.rs D:\Prog\Rust\the_rust_programming_language\restaurant\src\lib.rs
